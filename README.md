@@ -42,12 +42,12 @@ rpl-task-force-association/
 
 ## 📝 Assignments
 
-### Assignment 1: [Pertemuan_0.html]
+### Assignment 1: [Pertemuan_0.2.html]
 **Status:** ✅ Completed | **Grade:** -
 
 Brief description of what this assignment covers, including main objectives and key concepts.
 
-[View Details →](./pertemuan_0.html/)
+[View Details →](./pertemuan_0.2.html/)
 
 ---
 
@@ -57,7 +57,6 @@ Brief description of what this assignment covers, including main objectives and 
 
 | Category | Technologies |
 |----------|-------------|
-| **Languages** | PHP |
 | **Tools** | VSCode |
 
 </div>
