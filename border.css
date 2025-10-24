@@ -1,69 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html, body{
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    margin-left: 20px;
-    padding: 0;
-    background-color: #CBCBCB;
-}
+        html, body{
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-left: 10px;
+            padding: 0;
+        }
 
-pre{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+        nav {
+            background-color: white;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-border-none{
-    border: 5px none black;
-}
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: black;
+        }
 
-border-hidden{
-    border: 5px hidden black;
-}
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
 
-border-dotted{
-    border: 5px dotted black;
-}
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: opacity 0.2s;
+        }
 
-.none{
-    border: 5px none black;
-}
+        nav ul li a:hover {
+            opacity: 0.6;
+        }
 
-.hidden{
-    border: 5pc hidden black;
-}
+        pre{
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
 
-.dotted{
-    border: 5px dotted black;
-}
+        border-none{
+            border: 5px none black;
+        }
 
-.dashed{
-    border: 5px dashed black;
-}
+        border-hidden{
+            border: 5px hidden black;
+        }
 
-.solid{
-    border: 5px solid black;
-}
+        border-dotted{
+            border: 5px dotted black;
+        }
 
-.double{
-    border: 5px double black;
-}
+        .none{
+            border: 5px none black;
+        }
 
-.groove{
-    border: 5px groove black;
-}
+        .hidden{
+            border: 5pc hidden black;
+        }
 
-.ridge{
-    border: 5px ridge black;
-}
+        .dotted{
+            border: 5px dotted black;
+        }
 
-.inset{
-    border: 5px inset black;
-}
+        .dashed{
+            border: 5px dashed black;
+        }
 
-.outset{
-    border: 5px outset black;
-}
+        .solid{
+            border: 5px solid black;
+        }
+
+        .double{
+            border: 5px double black;
+        }
+
+        .groove{
+            border: 5px groove black;
+        }
+
+        .ridge{
+            border: 5px ridge black;
+        }
+
+        .inset{
+            border: 5px inset black;
+        }
+
+        .outset{
+            border: 5px outset black;
+        }
 

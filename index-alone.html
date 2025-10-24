@@ -6,9 +6,42 @@
     <title>Document</title>
 </head>
 <style>
-    *{
+        *{
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        nav {
+            background-color: white;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: black;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: opacity 0.2s;
+        }
+
+        nav ul li a:hover {
+            opacity: 0.6;
+        }
+
         h1{
             color: navy;
             text-align: center;
@@ -39,6 +72,15 @@
         }
 </style>
 <body>
+<nav>
+    <div class="logo">Perkumpulan tugas</div>
+    <ul>
+        <li><a href="External.html">Tugas 1</a></li>
+        <li><a href="Internal.html">Tugas 2</a></li>
+        <li><a href="index-alone.html">Tugas 3</a></li>
+        <li><a href="border.html">Tugas 4</a></li>
+    </ul>
+</nav>
     <h1>selamat datang</h1>
     <h2>Ini tulisan bagian ke dua</h2>
     <h3><span class="blue">ini tulisan biru</span> <span class="red">ini tulisan merah</span></h3>

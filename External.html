@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
+    <nav>
+    <div class="logo">Perkumpulan tugas</div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul id="navMenu">
+        <li><a href="External.html">Tugas 1</a></li>
+        <li><a href="Internal.html">Tugas 2</a></li>
+        <li><a href="index-alone.html">Tugas 3</a></li>
+        <li><a href="border.html">Tugas 4</a></li>
+    </ul>
+</nav>
 
     <h2>5. Eksternal CSS</h2>
     <div class="hasil">
@@ -38,4 +52,12 @@
     </div>
 
 </body>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+</script>
 </html>
